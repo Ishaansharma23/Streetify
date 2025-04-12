@@ -5,7 +5,7 @@ import foodAnimation from "../assets/animations/Food.json";
 const Fooddel = () => {
   return (
     <div>
-         <div className="flex justify-center items-center">
+         <div className="transition-transform duration-500 hover:scale-150">
       <Player 
         autoplay
         loop

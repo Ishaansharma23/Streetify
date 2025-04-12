@@ -153,15 +153,15 @@ const Homepage = () => {
                             ].map((item, i) => (
                                 <div
                                     key={i}
-                                    className="bg-white rounded-2xl shadow-lg p-6 flex items-start gap-4 transform transition-all duration-300 hover:scale-[1.03] hover:-rotate-[1deg] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] cursor-pointer"
+                                    className="bg-white rounded-2xl shadow-lg p-6 flex items-start gap-4 transform transition-all duration-300 hover:scale-[1.03] hover:-rotate-[1deg] hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] cursor-pointer hover:bg-black group"
                                     data-aos="flip-left"
                                 >
                                     <div className="text-3xl mt-1">{item.icon}</div>
                                     <div>
-                                        <h3 className="text-xl font-semibold text-gray-800 mb-1">
+                                        <h3 className="text-xl font-semibold text-gray-800 mb-1 group-hover:text-white transition-all duration-300">
                                             {item.title}
                                         </h3>
-                                        <p className="text-gray-600">{item.desc}</p>
+                                        <p className="text-gray-600 group-hover:text-white transition-all duration-300">{item.desc}</p>
                                     </div>
                                 </div>
                             ))}
@@ -171,7 +171,7 @@ const Homepage = () => {
             </Element>
 
             {/* HOW IT WORKS SECTION */}
-            <Element name="Download App">
+            <Element name='Download App'>
                 <section className="relative py-20 px-4 sm:px-6 md:px-8 lg:px-16 overflow-hidden z-10" data-aos="fade-down-right">
                     <div
                         className="absolute inset-0 bg-cover bg-center blur-sm scale-110 -z-10"
@@ -245,7 +245,7 @@ const Homepage = () => {
             </Element>
 
             {/* DOWNLOAD SECTION */}
-            <Element name="Download App" data-aos="fade-down-left" className="scroll-mt-20">
+            <Element  data-aos="fade-down-left" className="scroll-mt-20">
                 <Downloadsection />
             </Element>
         </div>

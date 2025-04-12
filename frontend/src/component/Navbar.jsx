@@ -34,16 +34,7 @@ const Navbar = () => {
           >
             Why Us
           </ScrollLink>
-          <ScrollLink
-            to="Popular Vendors"
-            smooth={true}
-            duration={500}
-            offset={-70}
-            className="py-5 text-white hover:text-orange-500 transition-all duration-500 transform hover:rotate-360"
-            onClick={handleScroll}
-          >
-            Popular Vendors
-          </ScrollLink>
+
           <ScrollLink
             to="Download App"
             smooth={true}
@@ -53,6 +44,17 @@ const Navbar = () => {
             onClick={handleScroll}
           >
             Download App
+          </ScrollLink>
+          
+          <ScrollLink
+            to="Popular Vendors"
+            smooth={true}
+            duration={500}
+            offset={-70}
+            className="py-5 text-white hover:text-orange-500 transition-all duration-500 transform hover:rotate-360"
+            onClick={handleScroll}
+          >
+            Popular Vendors
           </ScrollLink>
           <Link
             to="/contact"
