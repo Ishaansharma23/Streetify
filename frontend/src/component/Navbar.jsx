@@ -18,9 +18,10 @@ const Navbar = () => {
           to="home"
           smooth={true}
           duration={500}
-          className="cursor-pointer text-3xl font-bold text-white py-5 hover:text-orange-500 transition-all duration-500 transform hover:rotate-360"
+          className="cursor-pointer text-3xl font-bold text-white py-5 transition-all duration-500 transform hover:rotate-360"
         >
-          Streetify🍽️
+          <span className="text-white">Street</span>
+          <span className="text-orange-500">ify🍽️</span>
         </ScrollLink>
 
         <div className="flex space-x-6">
