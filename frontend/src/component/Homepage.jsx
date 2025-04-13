@@ -170,7 +170,6 @@ const Homepage = () => {
                 </section>
             </Element>
 
-            {/* HOW IT WORKS SECTION */}
             <Element name='Download App'>
                 <section className="relative py-20 px-4 sm:px-6 md:px-8 lg:px-16 overflow-hidden z-10" data-aos="fade-down-right">
                     <div
