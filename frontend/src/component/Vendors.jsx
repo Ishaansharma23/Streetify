@@ -55,7 +55,7 @@ const Vendors = () => {
       }}
     ></div>
 
-      <div className="relative z-10 w-full px-4 text-center">
+      <div className=" w-full text-center py-20 px-4 sm:px-6 md:px-8 lg:px-16 relative z-10">
         <h2 className="text-3xl sm:text-4xl font-bold text-black mb-4">
           Popular Street Food Vendors
         </h2>

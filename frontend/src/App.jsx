@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Footer from './component/Footer';
 import { Routes, Route } from 'react-router-dom';
 import Contactus from './component/Contactus';
+import Downloadsection from './component/Downloadsection';
 
 
 const App = () => {
@@ -20,8 +21,6 @@ const App = () => {
           <Route path='/' element={<Homepage/>} />
           <Route path='/contact' element={<Contactus />} />
         </Routes>
-
-     {/* <Homepage />  */}
        <ToastContainer /> 
        <Footer />
     </div>

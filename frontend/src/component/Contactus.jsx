@@ -1,6 +1,25 @@
 import React from "react";
+import { toast , Bounce } from "react-toastify";
 
 const Contactus = () => {
+
+
+  const submitHandler = () =>{
+    toast.success('✅ Sucessfully Submitted the Form!', {
+      position: 'top-right',
+      autoClose: 1500,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'dark',
+      transition: Bounce,
+  });
+
+  }
+
+
   return (
     <div className="bg-black text-white min-h-screen flex items-center justify-center px-4 py-20 mt-7">
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10 ">
@@ -38,6 +57,9 @@ const Contactus = () => {
             <button
               type="submit"
               className="bg-white text-black font-semibold px-8 py-3 rounded-full hover:bg-orange-500 hover:text-white transition"
+              onClick={()=>{
+                submitHandler();
+              }}
             >
               SUBMIT
             </button>

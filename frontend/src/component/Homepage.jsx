@@ -171,7 +171,7 @@ const Homepage = () => {
             </Element>
 
             <Element name='Download App'>
-                <section className="relative py-20 px-4 sm:px-6 md:px-8 lg:px-16 overflow-hidden z-10" data-aos="fade-down-right">
+                <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-16 relative z-10" data-aos="fade-down-right">
                     <div
                         className="absolute inset-0 bg-cover bg-center blur-sm scale-110 -z-10"
                         style={{
@@ -244,7 +244,7 @@ const Homepage = () => {
             </Element>
 
             {/* DOWNLOAD SECTION */}
-            <Element  data-aos="fade-down-left" className="scroll-mt-20">
+             <Element  data-aos="fade-down-left" className="scroll-mt-20">
                 <Downloadsection />
             </Element>
         </div>
